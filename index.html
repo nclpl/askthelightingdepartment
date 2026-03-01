@@ -25,7 +25,13 @@
             min-height: 2em;
         }
         #question::after {
-            content: '|';
+            content: '';
+            display: inline-block;
+            width: 2px;
+            height: 1em;
+            background: black;
+            vertical-align: middle;
+            margin-left: 2px;
             animation: blink 0.7s step-end infinite;
         }
         @keyframes blink {
